@@ -6,19 +6,21 @@ RTL (Register Transfer Level) design is the first step in the process. Verilog H
 ### Verification and Testbench Creation
 Verification is a critical part of the workflow. The program highlights how to build testbenches, which apply different inputs to the design and check outputs for correctness. Verilog constructs like initial begin, $dumpfile, and $dumpvars are used to generate simulation outputs. Testbenches ensure that the RTL design behaves as intended under all conditions.
 
-![My Screenshot](./Screenshot%20from%202025-09-22%2018-53-59.png)
 ### Simulation Tools and Workflows
 I havw worked with open-source tools to simulate their designs. iverilog is introduced for compiling and running Verilog code, while GTKWave is used to analyze waveforms. These tools help learners visualize signal transitions and timing behavior. By checking the output waveforms, they can confirm whether the circuit functions correctly and identify bugs.
-
+![My Screenshot](./Screenshot%20from%202025-09-22%2018-04-00.png)
 ### Debugging and Iterative Refinement
 
 Design refinement happens through iterative debugging. Each change in the RTL design is re-verified with the testbench outputs. If outputs do not match expectations, learners review and correct their code. This cycle mirrors industry practice and ensures reliability of the final design.
+![My Screenshot](./Screenshot%20from%202025-09-22%2018-04-59.png)
 
 ### Introduction to Synthesis
 Beyond simulation, there is synthesis concepts. Using the open-source tool Yosys, Verilog RTL is translated into a gate-level netlist that can be mapped to actual hardware. Yosys reads the design files along with standard cell libraries and generates optimized hardware representations. This step connects high-level logic design with physical implementation.
-
+![My Screenshot](./Screenshot%20from%202025-09-22%2018-34-20.png)
 ### Netlist Representation and Verification
 The synthesized netlist provides a hardware-level mapping of the RTL design. After synthesis, verification is repeated to ensure that functionality remains correct. Testbenches are applied again to validate that the netlist behaves as expected. This bridges the gap between simulation and real hardware readiness.
+
+![My Screenshot](./Screenshot%20from%202025-09-22%2018-53-59.png)
 
 ### Standard Cells in Design
 Standard cells are the building blocks of digital circuits. They include logic gates such as NAND, NOR, flip-flops, and other functional units. These cells are pre-designed and optimized to ensure efficient use in synthesis.
