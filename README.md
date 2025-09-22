@@ -1,6 +1,7 @@
 # Week1_RISC_V-SoC-Tapeout
 ## DAY01
-<h1 style="color:blue;">Day 1 - Introduction & Setup</h1>
+<span style="color:orange; font-size:20px; font-weight:bold;">Day 3 - Hands-on with Design Flow</span>
+
 ### Basics of RTL Design
 RTL (Register Transfer Level) design is the first step in the process. Verilog HDL is used to describe the required functionality of digital systems.I have learnt that we have to write modular and synthesizable code that represents logic at the RTL.
 
