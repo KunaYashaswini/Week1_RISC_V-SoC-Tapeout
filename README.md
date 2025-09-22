@@ -6,6 +6,8 @@ RTL (Register Transfer Level) design is the first step in the process. Verilog H
 ### Verification and Testbench Creation
 Verification is a critical part of the workflow. The program highlights how to build testbenches, which apply different inputs to the design and check outputs for correctness. Verilog constructs like initial begin, $dumpfile, and $dumpvars are used to generate simulation outputs. Testbenches ensure that the RTL design behaves as intended under all conditions.
 
+
+![Alt text](Screenshot from 2025-09-22 18-53-59.png)
 ### Simulation Tools and Workflows
 I havw worked with open-source tools to simulate their designs. iverilog is introduced for compiling and running Verilog code, while GTKWave is used to analyze waveforms. These tools help learners visualize signal transitions and timing behavior. By checking the output waveforms, they can confirm whether the circuit functions correctly and identify bugs.
 
