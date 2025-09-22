@@ -1,5 +1,6 @@
 # Week1_RISC_V-SoC-Tapeout
 ## DAY01
+<h1 style="color:blue;">Day 1 - Introduction & Setup</h1>
 ### Basics of RTL Design
 RTL (Register Transfer Level) design is the first step in the process. Verilog HDL is used to describe the required functionality of digital systems.I have learnt that we have to write modular and synthesizable code that represents logic at the RTL.
 
@@ -32,22 +33,16 @@ The right combination must be chosen to meet the design’s performance and effi
 Designs must meet setup and hold time constraints. Faster cells help reduce delays and meet setup requirements but may increase power consumption. Slower cells, while energy-efficient, risk timing violations. This trade-off highlights the importance of careful cell selection.
 
 ### Load and Capacitance Effects
-
 When load increases, signal propagation slows due to higher capacitance. Stronger driver cells are needed to handle this by sourcing or sinking more current. Designers must consider these factors to maintain signal integrity and performance.
 
-# Faster vs. Slower Cells
-
+### Faster vs. Slower Cells
 Faster cells: Low delay, high current drive, higher power, and larger area.
-
 Slower cells: Higher delay, low power, smaller area, and lower current drive.
-
-
 Both types are necessary, and their usage depends on the requirements of the circuit.
 
-# Cell Selection in Synthesis
-
+### Cell Selection in Synthesis
 During synthesis, tools like Yosys automatically select cells to balance performance and power. However, designers may override these choices to meet specific timing or power constraints. This flexibility ensures that the design meets real-world requirements without unnecessary overhead.
 
-# Conclusion
+### Conclusion
 
 The RISC Reference SoC Tapeout Program equips learners with end-to-end knowledge of digital design. Starting from RTL coding and verification to synthesis and standard cell usage, it prepares participants to face real-world VLSI and chip design challenges with confidence. The program emphasizes both theory and practice, ensuring a well-rounded learning experience.
